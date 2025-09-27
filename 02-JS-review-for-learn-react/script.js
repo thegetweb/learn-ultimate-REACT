@@ -197,7 +197,7 @@ console.log(false && "Some string");
 console.log(hasMovieAdaptation && "This book has a movie");
 
 // falsy: 0, '', null, undefined
-console.log("jonas" && "Some string");
+console.log("sakin" && "Some string");
 console.log(0 && "Some string");
 
 console.log(true || "Some string");
@@ -294,7 +294,7 @@ booksAfterUpdate;
 //   .then((res) => res.json())
 //   .then((data) => console.log(data));
 
-// console.log("jonas");
+// console.log("sakin");
 
 async function getTodos() {
   const res = await fetch("https://jsonplaceholder.typicode.com/todos");
@@ -307,4 +307,4 @@ async function getTodos() {
 const todos = getTodos();
 console.log(todos);
 
-console.log("jonas");
+console.log("sakin");

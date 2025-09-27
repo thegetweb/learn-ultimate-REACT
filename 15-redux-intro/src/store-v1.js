@@ -115,6 +115,6 @@ function updateName(fullName) {
   return { type: "account/updateName", payload: fullName };
 }
 
-store.dispatch(createCustomer("Jonas Schmedtmann", "24343434"));
+store.dispatch(createCustomer("sakin ", "24343434"));
 store.dispatch(deposit(250));
 console.log(store.getState());
